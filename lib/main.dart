@@ -38,9 +38,7 @@ class SvgExample extends StatelessWidget {
               children: [
                 SvgPicture.asset(
                   assetName,
-                  semanticsLabel: 'Dart Logo',
-                  // width: 400,
-                  // fit: BoxFit.scaleDown,
+                  semanticsLabel: 'Logo',
                 ),
                 const SizedBox(height: 16.0),
                 const SizedBox(
